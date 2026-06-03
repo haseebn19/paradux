@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 500 500" width="500" height="500">
+  <defs>
+    <style>
+      .c{fill:rgb(100,150,200);stroke:rgb(70,120,180);stroke-width:1}.r{fill:rgb(220,50,50);stroke:rgb(180,30,30);stroke-width:1}.b{fill:rgb(50,100,220);stroke:rgb(30,70,180);stroke-width:1}</style>
+  </defs>
+  <circle class="c" cx="105" cy="71.5" r="30" />
+  <circle class="c" cx="175" cy="71.5" r="30" />
+  <circle class="c" cx="245" cy="71.5" r="30" />
+  <circle class="c" cx="315" cy="71.5" r="30" />
+  <circle class="c" cx="70" cy="131" r="30" />
+  <circle class="c" cx="140" cy="131" r="30" />
+  <circle class="c" cx="210" cy="131" r="30" />
+  <circle class="c" cx="280" cy="131" r="30" />
+  <circle class="c" cx="350" cy="131" r="30" />
+  <circle class="c" cx="35" cy="190.5" r="30" />
+  <circle class="c" cx="105" cy="190.5" r="30" />
+  <circle class="c" cx="175" cy="190.5" r="30" />
+  <circle class="c" cx="245" cy="190.5" r="30" />
+  <circle class="c" cx="315" cy="190.5" r="30" />
+  <circle class="c" cx="385" cy="190.5" r="30" />
+  <circle class="c" cx="0" cy="250" r="30" />
+  <circle class="c" cx="70" cy="250" r="30" />
+  <circle class="c" cx="140" cy="250" r="30" />
+  <circle class="c" cx="210" cy="250" r="30" />
+  <circle class="c" cx="280" cy="250" r="30" />
+  <circle class="c" cx="350" cy="250" r="30" />
+  <circle class="c" cx="420" cy="250" r="30" />
+  <circle class="c" cx="35" cy="309.5" r="30" />
+  <circle class="c" cx="105" cy="309.5" r="30" />
+  <circle class="c" cx="175" cy="309.5" r="30" />
+  <circle class="c" cx="245" cy="309.5" r="30" />
+  <circle class="c" cx="315" cy="309.5" r="30" />
+  <circle class="c" cx="385" cy="309.5" r="30" />
+  <circle class="c" cx="70" cy="369" r="30" />
+  <circle class="c" cx="140" cy="369" r="30" />
+  <circle class="c" cx="210" cy="369" r="30" />
+  <circle class="c" cx="280" cy="369" r="30" />
+  <circle class="c" cx="350" cy="369" r="30" />
+  <circle class="c" cx="105" cy="428.5" r="30" />
+  <circle class="c" cx="175" cy="428.5" r="30" />
+  <circle class="c" cx="245" cy="428.5" r="30" />
+  <circle class="c" cx="315" cy="428.5" r="30" />
+  <circle class="r" cx="175" cy="71.5" r="27" />
+  <circle class="r" cx="315" cy="71.5" r="27" />
+  <circle class="r" cx="70" cy="131" r="27" />
+  <circle class="r" cx="385" cy="190.5" r="27" />
+  <circle class="r" cx="0" cy="250" r="27" />
+  <circle class="r" cx="175" cy="309.5" r="27" />
+  <circle class="r" cx="385" cy="309.5" r="27" />
+  <circle class="r" cx="70" cy="369" r="27" />
+  <circle class="r" cx="175" cy="428.5" r="27" />
+  <circle class="r" cx="315" cy="428.5" r="27" />
+  <circle class="b" cx="105" cy="71.5" r="27" />
+  <circle class="b" cx="245" cy="71.5" r="27" />
+  <circle class="b" cx="350" cy="131" r="27" />
+  <circle class="b" cx="35" cy="190.5" r="27" />
+  <circle class="b" cx="245" cy="190.5" r="27" />
+  <circle class="b" cx="420" cy="250" r="27" />
+  <circle class="b" cx="35" cy="309.5" r="27" />
+  <circle class="b" cx="350" cy="369" r="27" />
+  <circle class="b" cx="105" cy="428.5" r="27" />
+  <circle class="b" cx="245" cy="428.5" r="27" />
+</svg>
