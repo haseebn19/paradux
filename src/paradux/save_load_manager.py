@@ -1,7 +1,7 @@
 """Save and load game state as JSON files."""
 
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -21,7 +21,7 @@ class SaveLoadManager:
 
     def save_game(self, board_state: BoardState, filename: str | None = None) -> str:
         if filename is None:
-            timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+            timestamp = datetime.now(UTC).strftime("%Y%m%d_%H%M%S")
             filename = f"save_{timestamp}"
 
         if not filename.endswith(".json"):
@@ -77,7 +77,7 @@ class SaveLoadManager:
 
     def _serialize_board_state(self, board_state: BoardState) -> dict[str, Any]:
         save_data: dict[str, Any] = {
-            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "timestamp": datetime.now(UTC).isoformat(),
             "board_spaces": {
                 f"{coord[0]},{coord[1]}": colour.value
                 for coord, colour in board_state.board_spaces.items()

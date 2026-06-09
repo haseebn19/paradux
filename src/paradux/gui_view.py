@@ -3,7 +3,7 @@
 import contextlib
 import os
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -887,7 +887,7 @@ class GUIWindow(QMainWindow):
             self,
             "Save Game",
             "Enter a name for this save:",
-            text=f"save_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}",
+            text=f"save_{datetime.now(UTC).strftime('%Y%m%d_%H%M%S')}",
         )
 
         if ok and save_name:
